@@ -1,0 +1,34 @@
+{
+    "version": "2.1.0",
+    "homepage": "http://www.motoslave.net/tweego/",
+    "description": "Free (gratis and libre) command line compiler for Twine/Twee story formats, written in Go.",
+    "license": {
+        "identifier": "BSD-2-Clause"
+    },
+    "bin": "tweego.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tmedwards/tweego/releases/download/v2.1.0/tweego-2.1.0-windows-x86.zip",
+            "hash": "c5ca01347a5968b7fc2c6fd41c537bf1c11e09b2b6accfd2f0eacb0bd8681d19"
+        },
+        "32bit": {
+            "url": "https://github.com/tmedwards/tweego/releases/download/v2.1.0/tweego-2.1.0-windows-x64.zip",
+            "hash": "7ed2a2468e76995368eec2746b109ca94031cc13c3d3d74c2932480076cf22f1"
+        }
+    },
+    "checkver": {
+        "url": "http://www.motoslave.net/tweego/releases-rss.php",
+        "re": "<title>Tweego v(?<version>\\S+)"
+    },
+    "autoupdate": {
+        "note": "Thanks for using autoupdate, please test your updates!",
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/tmedwards/tweego/releases/download/v$matchVersion/tweego-$matchVersion-windows-x64.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/tmedwards/tweego/releases/download/v$matchVersion/tweego-$matchVersion-windows-x86.zip"
+            }
+        }
+    }
+}
