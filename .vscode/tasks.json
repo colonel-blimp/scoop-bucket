@@ -61,7 +61,7 @@
         {
             "label": "Missing Checkver",
             "type": "shell",
-            "command": ".\\bin\\missing-checkver.ps1; .\\bin\\missing-checkver.ps1 -dir \"TODO\"",
+            "command": ".\\bin\\missing-checkver.ps1; .\\bin\\missing-checkver.ps1",
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
