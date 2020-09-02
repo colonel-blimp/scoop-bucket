@@ -1,3 +1,3 @@
-# Scoop %%BUCKET_NAME%% Bucket %%SAMPLE_MARKDOWN_BADGE_CODE%%
+# Scoop tweego Bucket [![Build status](https://img.shields.io/appveyor/ci/colonel-blimp/scoop-bucket/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/colonel-blimp/scoop-bucket/branch/master)
 
-`scoop bucket add %%NICE_NAME_TO_BE_SHOWN_TO_USER%% '%%HTTPS_GITHUB_REPOSITORY_URL.git%%'`
+`scoop bucket add tweego 'https://github.com/colonel-blimp/scoop-tweego.git'`
