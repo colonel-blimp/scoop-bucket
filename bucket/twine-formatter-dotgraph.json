@@ -18,7 +18,7 @@
         "TWEEGO": "tweego"
     },
     "checkver": {
-        "url": "https://bitbucket.org/mcdemarco/dotgraph/raw/default/package.json",
+        "url": "https://raw.githubusercontent.com/mcdemarco/dotgraph/master/package.json",
         "jp": "$.version"
     },
     "autoupdate": {
